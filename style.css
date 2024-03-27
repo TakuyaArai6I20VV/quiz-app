@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+@keyframes animated-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(249, 86, 86), rgb(93, 93, 224), rgb(249, 86, 86));
+  background-size: 400% 400%;
+  animation: animated-gradient 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  background-color: rgb(242, 242, 242);
+  border-radius: 50px;
+  box-shadow: 0 0 30px rgba(22, 22, 22, 0.7);
+  overflow: hidden;
+  width: 400px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 0 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin: 0.7rem 2rem;
+}
+
+ul li input {
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(140, 142, 162);
+  border: none;
+  color: rgb(50, 48, 48);
+  font-family: inherit;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(115, 117, 134);
+}
+
+button:active {
+  background-color: rgb(94, 96, 110);
+}
