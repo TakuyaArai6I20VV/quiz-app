@@ -8,7 +8,7 @@ const quizData = [
     correctAnswer: "d"
   },
   {
-    question: "Who is the President of US?",
+    question: "Who is the President of the United States for the years 2017-2020?",
     a: "Florin Pop",
     b: "Donald Trump",
     c: "Ivan Saldano",
